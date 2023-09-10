@@ -16,6 +16,12 @@ Manually changed a few shortcuts:
     * "Switch windows" <- Alt + Tab
   * Launchers
     * "Search" <- Ctrl + Space
+* bashrc
+  * Add the following line:
+    ```
+    # Make Ctrl+K interrupt command in terminal
+    stty intr \^k
+    ```
 
 ## View HEIC images
 https://askubuntu.com/a/1099378
