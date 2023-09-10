@@ -28,3 +28,8 @@ Manually changed a few shortcuts:
 ## View HEIC images
 https://askubuntu.com/a/1099378
 
+```
+sudo apt install heif-gdk-pixbuf heif-thumbnailer gimagereader gpicview
+```
+Now, open images with "Image Viewer" application instead of the default app. 
+
