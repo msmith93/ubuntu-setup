@@ -5,13 +5,17 @@ Tracking the things I changed on my Ubuntu setup
 ~https://github.com/petrstepanov/gnome-macos-remap~
 
 Manually changed a few shortcuts:
-* Navigation
-  * "Move to workspace on the left" <- Ctrl+Left
-  * "Move to workspace on the right" <- Ctrl+Right
-  * "Switch applications" <- Alt + Tab
-  * "Switch windows" <- Super + Tab
-* Launchers
-  * "Search" <- Alt + Space
+* Install gnome tweaks
+  * sudo apt install gnome-tweaks
+  * Open Tweaks -> Keyboard and Mouse -> Additional Layout Options -> Alt and Win behavior -> Ctrl is mapped to Alt, Alt to Win
+* Keyboard Settings (these must be done after the gnome tweak above so Super is mapper to Ctrl, etc)
+  * Navigation
+    * "Move to workspace on the left" <- Super+Left
+    * "Move to workspace on the right" <- Super+Right
+    * "Switch applications" <- Ctrl + Tab
+    * "Switch windows" <- Alt + Tab
+  * Launchers
+    * "Search" <- Ctrl + Space
 
 ## View HEIC images
 https://askubuntu.com/a/1099378
