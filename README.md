@@ -16,8 +16,10 @@ Manually changed a few shortcuts:
     * "Switch windows" <- Alt + Tab
   * Launchers
     * "Search" <- Ctrl + Space
+* Terminal Preferences
+  * In Shortcuts, change anything that has "Shift + Ctrl + ?" to just "Ctrl + ?" 
 * bashrc
-  * Add the following line:
+  * Add the following line (because now Ctrl + C is for copy, not kill):
     ```
     # Make Ctrl+K interrupt command in terminal
     stty intr \^k
