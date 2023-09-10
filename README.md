@@ -8,6 +8,9 @@ Manually changed a few shortcuts:
 * Navigation
   * "Move to workspace on the left" <- Ctrl+Left
   * "Move to workspace on the right" <- Ctrl+Right
+  * "Switch applications" <- Alt + Tab
+  * "Switch windows" <- Super + Tab
+* Launchers
   * "Search" <- Alt + Space
 
 ## View HEIC images
