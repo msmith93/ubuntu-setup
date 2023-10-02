@@ -5,21 +5,21 @@ Tracking the things I changed on my Ubuntu setup
 ~https://github.com/petrstepanov/gnome-macos-remap~
 
 Manually changed a few shortcuts:
-* Install gnome tweaks
+* ~Install gnome tweaks~
   * sudo apt install gnome-tweaks
   * Open Tweaks -> Keyboard and Mouse -> Additional Layout Options -> Alt and Win behavior -> Ctrl is mapped to Alt, Alt to Win
 * Keyboard Settings (these must be done after the gnome tweak above so Super is mapper to Ctrl, etc)
   * Navigation
-    * "Move to workspace on the left" <- Super+Left
-    * "Move to workspace on the right" <- Super+Right
-    * "Switch applications" <- Ctrl + Tab
-    * "Switch windows" <- Alt + Tab
+    * "Move to workspace on the left" <- Ctrl+Left
+    * "Move to workspace on the right" <- Ctrl+Right
+    * "Switch applications" <- Alt + Tab
+    * "Switch windows" <- Ctl + Tab
   * Launchers
-    * "Search" <- Ctrl + Space
+    * "Search" <- Alt + Space
 * Terminal Preferences
-  * In Shortcuts, change anything that has "Shift + Ctrl + ?" to just "Ctrl + ?" 
+  * In Shortcuts, change anything that has "Shift + Ctrl + ?" to just "Alt + ?" 
 * bashrc
-  * Add the following line (because now Ctrl + C is for copy, not kill):
+  * ~Add the following line (because now Ctrl + C is for copy, not kill):~
     ```
     # Make Ctrl+K interrupt command in terminal
     stty intr \^k
